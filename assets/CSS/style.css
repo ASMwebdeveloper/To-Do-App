@@ -117,8 +117,18 @@ ul li span:focus
     .todo-app h2{
         font-size: 17px;
     }
+    .row{
+        padding: 0;
+    }
+    .row input{
+        flex: 1;
+        background:transparent ;
+        padding-left: 20px;
+        font-size: 12px;
+        font-weight: medium;
+    }
     .row button{
-        padding: 12px 25px;
+        padding: 15px 20px;
         font-size: 14px;
     }
     #list-container li{
@@ -137,5 +147,25 @@ ul li span:focus
         height: 20px;
         font-size: 18px;
         line-height: 20px;
+    }
+
+}
+@media screen and  (max-width:320px) {
+    .todo-app h2{
+        font-size: 17px;
+    }
+    .row{
+        padding: 0;
+    }
+    .row input{
+        /* flex: 1; */
+        background:transparent ;
+        padding-left: 20px;
+        font-size: 8px;
+        font-weight: normal;
+    }
+    .row button{
+        padding: 10px 20px;
+        font-size: 14px;
     }
 }
