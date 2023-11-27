@@ -121,7 +121,7 @@ ul li span:focus
         padding: 0;
     }
     .row input{
-        flex: 1;
+/*         flex: 1; */
         background:transparent ;
         padding-left: 20px;
         font-size: 12px;
